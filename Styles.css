@@ -1,0 +1,312 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+.Nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 5%;
+}
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ======= Breve presentación ======= */
+.contenedor {
+    background: #8b8d92;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.contenedor img {
+    width: 250px;
+   
+}
+.Descripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: -500%;
+    max-width: 60%;
+    font-size: 17px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 20px;
+}
+
+/* ======= Datos personales ======= */
+.DatosPersonales {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 2%;
+    background: #3d2f36;
+    color: #fff;
+    width: 40%;
+}
+.Sangria {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.imagencontacto {
+    width: 40px;
+    margin-top: 3%;
+}
+.Contacto {
+    text-align: left;
+    margin-top: 5%;
+}
+
+/* ======= Educación ======= */
+.Educacion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: -19.7%;
+    margin-right: 2%;
+    background: #fffbf8;
+    color: #5a5a5d;
+    width: 45%;
+}
+.TituloEducacion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.imageneducacion {
+    width: 40px;
+}
+.Estudios {
+    margin: 0;
+}
+.ListaEducacion {
+    padding-left: 20px;
+}
+
+/* ======= Idiomas ======= */
+.Idioma {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: -18%;
+    margin-left: 2%;
+    background: #3d2f36;
+    color: #fff;
+    width: 40%;
+}
+.TituloIdiomas {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.imagenIdiomas {
+    width: 40px;
+}
+.ListaIdiomas {
+    padding-left: 20px;
+}
+
+/* ======= Experiencia ======= */
+.Experiencia{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 2%;
+    margin-right: 2%;
+    background: #fffbf8;
+    color: #5a5a5d;
+    width: 45%;
+}
+.TituloExperiencias {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.imagenExperiencias {
+    width: 40px;
+}
+.ListaExperi {
+    padding-left: 20px;
+}
+
+/* ======= Habilidades ======= */
+.Habilidad {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: -20%;
+    margin-left: 2%;
+    background: #3d2f36;
+    color: #fff;
+    width: 40%;
+}
+.TituloHabilidades {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.imagenHabilidades {
+    width: 40px;
+}
+.ListaHabilidades {
+    padding-left: 20px;
+}
+
+/* ======= Referencias Personales ======= */
+.Referencia {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: -12%;
+    margin-right: 2%;
+    background: #fffbf8;
+    color: #5a5a5d;
+    width: 45%;
+}
+.TituloReferencias {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.imagenReferencias {
+    width: 40px;
+}
+.Referencias {
+    margin: 0;
+}
+.ListaReferencias {
+    padding-left: 20px;
+}
+.List {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+/* ====== FUNCIONES DEL BOTON ======*/
+* Estilos para centrar el botón y el mensaje */
+.nav-boton {
+    margin: 20px auto; 
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-boton:hover {
+    background-color: #B17F59 ;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px auto;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%; 
+    max-width: 400px; 
+}
+button {
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:  #B17F59 ;
+}
+.mensaje-agradecimiento {
+    margin: 20px auto; 
+}
+/*====== Adaptabilidad =======*/
+@media (max-width: 600px) {
+    body {
+        font-size: 16px; 
+        padding: 10px; 
+    }
+
+    header {
+        font-size: 1.2em; 
+        padding: 15px 0; 
+    }
+
+    .Nombre {
+        font-size: 18px; 
+        text-align: center; 
+        margin-right: 0; 
+        margin-top: 5%; 
+    }
+
+    .contenedor {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contenedor img {
+        width: 200px; 
+        margin-bottom: 20px; 
+    }
+
+    .Descripcion {
+        font-size: 16px; 
+        margin-right: 0; 
+        max-width: 100%; 
+    }
+
+    .DatosPersonales, .Educacion, .Idioma, .Experiencia, .Habilidad, .Referencia {
+        width: 100%; 
+        margin-left: 0; 
+        margin-right: 0; 
+        margin-top: 10px; 
+    }
+
+    .Sangria, .TituloEducacion, .TituloIdiomas, .TituloExperiencias, .TituloHabilidades, .TituloReferencias {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .imagencontacto, .imageneducacion, .imagenIdiomas, .imagenExperiencias, .imagenHabilidades, .imagenReferencias {
+        width: 30px; 
+        margin-top: 0; 
+    }
+
+    ul li {
+        font-size: 16px; 
+    }
+}
+
+
