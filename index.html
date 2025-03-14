@@ -1,1 +1,146 @@
-<h1>Hola</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Proyecto.css">
+</head>
+<body>
+    <!-- Nombre y profesión-->
+    <header>
+        <h1><b><i>Diego Alexander Funes Tuquer</i></b></h1>
+        <p class="Nombre ">Bachiller en Ciencias y letras con orientación en diseño gráfico</p>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <h2><b>Sobre mi</b></h2>
+       
+        <!-- Breve presentación -->
+        <div class="contenedor">
+            <img src="descarga.png" alt="Foto de Diego Funes">
+            <p class="Descripcion">Mi nombre es Diego Funes, tengo 19 años, soy una persona responsable, con una actitud positiva y muchas ganas de seguir creciendo tanto personal como profesionalmente. Estoy comprometido con el aprendizaje continuo y me esfuerzo por dar lo mejor de mí en cada tarea que realizo.</p>
+        </div>
+
+        <!--Datos personales-->
+        <section class="DatosPersonales">
+            <div class="Sangria">
+                <img src="Contacto icono.jpg" alt="icono de contacto" class="">
+                <h3 class="Contacto">Datos personales</h3>
+            </div>
+            <hr>
+            <ul>
+                <li><b>Telefono:</b> 56346745</li>
+                <li><b>Mail:</b> funesdiego893@gmail.com</li>
+                <li><b>Dirección:</b> 4ta calle A 4-20 zona 7 de Mixco Colonia la Brigada</li>
+            </ul>
+        </section>
+
+        <!--Educación-->
+        <section class="Educacion">
+            <div class="TituloEducacion">
+                <img src="educacionIcono.jpg" alt="Icono de Educación" class="imageneducacion">
+                <h3 class="Estudios">Educación</h3>
+            </div>
+            <hr>
+            <ul class="ListaEducacion">
+                <h5>Instituto Mixto Intercultural Santiago “La Salle”</h5>
+                <li class="List">Bachiller en Ciencias y Letras con Orientación en Diseño Gráfico.<br>
+                    Km 15 Calzada Roosevelt, 0 Avenida 13-70 Zona 3 de Mixco. Guatemala. (Enero, 2021 - Noviembre 2022)</li>
+                <h5>Universidad Regional de Guatemala</h5>
+                <li class="List">Licenciatura en Administración de Sistemas Informáticos <br>
+                    Colegio Lehnsen 12 Av. 18-79, Mixco,<br> Guatemala Febrero, 2025 Presente. <br>
+                Actualmente, me encuentro cursando el quinto semestre de mi carrera, con una carga académica programada los sábados de 8:00 a 17:00 horas. La carrera tiene una duración total de cinco años, de los cuales me restan dos años para su finalización.</li>
+            </ul>
+        </section>
+
+        <!--Idiomas-->
+        <section class="Idioma">
+            <div class="TituloIdiomas">
+                <img src="Idiomas.jpg" alt="Icono de Idiomas" class="imagenIdiomas">
+                <h3 class="Idiomas">Idiomas</h3>
+            </div>
+            <hr>
+            <ul class="ListaIdiomas">
+                <li class="List"><b>Español:</b> 100%</li>
+                <li class="List"><b>Inglés:</b> 50%</li>
+            </ul>
+        </section>
+
+        <!--Experiencias-->
+        <section class="Experiencia">
+            <div class="TituloExperiencias">
+                <img src="Experiencias.jpg" alt="Icono de Experiencias" class="imagenExperiencias">
+                <h3 class="Experiencias">Experiencias</h3>
+            </div>
+            <hr>
+            <ul class="ListaExperiencias">
+                <h5>Asistente </h5>
+                <li class="List">Selección Plus - empresarial Zona Pradera, <br>Torre 3 nivel 15, Oficina 1504 Octubre, 2023 - Presente. <br> Actualmente, brindamos nuestra colaboración a TV Azteca Guatemala.</li>
+            </ul>
+        </section>
+
+        <!--Habilidades-->
+        <section class="Habilidad">
+            <div class="TituloHabilidades">
+                <img src="Habilidades.jpg" alt="Icono de Habilidades" class="imagenHabilidades">
+                <h3 class="Habilidades">Habilidades</h3>
+            </div>
+            <hr>
+            <ul class="ListaHabilidades">
+                <li class="List"><b>Diseño:</b> 75%</li>
+                <li class="List"><b>Programas de Office:</b> 50%</li>
+                <li class="List"><b>Sistemas y Virtualización:</b> 60%</li>
+                <li class="List"><b>Photoshop:</b> 50%</li>
+                <li class="List"><b>Illustrator:</b> 50%</li>
+                <li class="List"><b>Canva:</b> 80%</li>
+                <li class="List"><b>Final Cut Pro:</b> 30%</li>
+            </ul>
+        </section>
+
+        <!--Referencias Personales-->
+        <section class="Referencia">
+            <div class="TituloReferencias">
+                <img src="referencias.jpg" alt="Icono de Referencias" class="imagenReferencias">
+                <h3 class="Referencias">Referencias</h3>
+            </div>
+            <hr>
+            <ul class="ListaRefencias">
+                <h5>Edward Hérnandez</h5>
+                <li class="List">Administración TV Azteca</li>
+                <li class="List">56331614</li>
+                <h5>Pilar Nuñez</h5>
+                <li class="List">Presentadora TV Azteca</li>
+                <li class="List">30301526</li>
+                <h5>Marvin Peren</h5>
+                <li class="List">Técnico de Electro Saunas Oasis</li>
+                <li class="List">42981918</li>
+            </ul>
+        </section>
+    <!-- Botón que activa la función -->
+    <button class="nav-boton" onclick="accion()">Interesante</button>
+
+    <!-- Mensaje de agradecimiento que se muestra al hacer clic -->
+    <div class="mensaje-agradecimiento" id="mensajeAgradecimiento" style="display: none;">
+        <p>¡Gracias por tu atención!</p>
+    </div>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+        <form id="formularioContacto" style="display: none;">
+            <input type="text" placeholder="Tu Nombre" required>
+            <input type="email" placeholder="Tu Correo" required>
+            <textarea placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Diego Alexander Funes Tuquer | Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="Proyecto.js"></script>
+</body>
+</html>
