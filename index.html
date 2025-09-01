@@ -127,15 +127,19 @@
 
     <!-- Formulario de contacto -->
     <section id="contacto"> 
-        <form id="formularioContacto" style="display: none;" action="https://formspree.io/f/xjkeobqj"
+ <form id="formularioContacto" style="display: none;" action="https://formspree.io/f/xjkeobqj"
   method="POST">
             <input type="text" placeholder="Tu Nombre" required name="name">
             <input type="email" placeholder="Tu Correo" required name="email">
             <textarea placeholder="Tu Mensaje" required name="message"></textarea>
             <button type="submit">Enviar</button>
         </form>
+        <div id="mensajeExito" style="display:none; color:green; margin-top:10px;">
+            ✅ ¡Mensaje enviado con éxito!
+        </div>
     </section>
 </main>
+
     <!-- Pie de página -->
     <footer>
         <p>&copy; 2025 Diego Alexander Funes Tuquer | Todos los derechos reservados.</p>
