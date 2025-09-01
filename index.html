@@ -126,11 +126,12 @@
     </div>
 
     <!-- Formulario de contacto -->
-    <section id="contacto">
-        <form id="formularioContacto" style="display: none;">
-            <input type="text" placeholder="Tu Nombre" required>
-            <input type="email" placeholder="Tu Correo" required>
-            <textarea placeholder="Tu Mensaje" required></textarea>
+    <section id="contacto"> 
+        <form id="formularioContacto" style="display: none;" action="https://formspree.io/f/xjkeobqj"
+  method="POST">
+            <input type="text" placeholder="Tu Nombre" required name="name">
+            <input type="email" placeholder="Tu Correo" required name="email">
+            <textarea placeholder="Tu Mensaje" required name="message"></textarea>
             <button type="submit">Enviar</button>
         </form>
     </section>
